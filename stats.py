@@ -14,10 +14,6 @@ def get_char_counts(text):
             result[char] += 1
         else:
             result[char] = 1
-    result['t'] = 29493
-    result['p'] = 5952
-    result['c'] = 9011
-    result['e'] = 44538
     list_sort = []
     keys = result.keys()
     for key in keys:
